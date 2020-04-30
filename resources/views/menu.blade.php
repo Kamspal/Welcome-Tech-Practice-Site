@@ -73,11 +73,11 @@
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="carousel-control-prev-icon prev" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
   <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="carousel-control-next-icon next" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
   </div>
@@ -115,12 +115,79 @@
     <div class="row">
           <img class="img2" src="img/call-center.jpg" alt="call-center pic">
   </div>
+  </div>
    <div class="container">
-      <div class="row">
+      <div class="row" style="margin-top: 30px">
           <div class="col-sm-4 col-sm-offset-4">
              <div class="my-progress-bar">
              </div> 
             </div>
-      </div>
+            <div class="col-sm-4 col-sm-offset-4">
+             <div class="my-progress-bar">
+             </div> 
+            </div>
+            <div class="col-sm-4 col-sm-offset-4">
+             <div class="my-progress-bar">
+             </div> 
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 margin-right">
+            <p class="font3">
+               Lorem Ipsum is simply dummy text of printing and typesetting industry standard dummy text
+               </p>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 margin-bottom">
+            <p class="font3">
+               Lorem Ipsum is simply dummy text of printing and typesetting industry standard dummy text
+               </p>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 margin-left">
+            <p class="font3">
+               Lorem Ipsum is simply dummy text of printing and typesetting industry standard dummy text
+               </p>
+            </div>
     </div>
+   </div>
+</section>
+
+<section id="style4">
+ <div class="container">
+      <div class="row" style="height: 700px; width:100%">
+        <div class="col-md-9 col-sm-9 col-xs-12">
+            <h1 class="font4">Our Features</h1>
+        </div>
+        <div class="col-sm-6">
+          <ul class="progressbar" style="height:0; padding-left: 50px;">
+            <li class="color-yellow"><img class="low-height" src="img/phone.png"  style="height:38px; width:38px" alt=""></li>
+            <li class="color-blue"><img class="low-height" src="img/network.png" style="height:38px; width:38px" alt=""></li>
+            <li class="color-orange"><img class="low-height" style="height:38px; width:38px" src="img/troubleshooting.png" alt=""></li>
+          </ul>  
+          <div class="vl"></div>
+        </div>
+          <div class="row margin-left">
+                <div class="col-md-9 col-sm-9 col-xs-12 padding-bottom">
+                    <h3 class="font5">Cisco System VOIP Phone Systems</h3>
+                      <p class="font6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. It is a long established fact that reader will be distracted by the readable content.</p>
+                </div>
+                 <div class="col-md-9 col-sm-9 col-xs-12 padding-bottom">
+                    <h3 class="font5">Network Installation</h3>
+                      <p class="font6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. It is a long established fact that reader will be distracted by the readable content.</p>
+                 </div>
+                 <div class="col-md-9 col-sm-9 col-xs-12 padding-bottom">
+                    <h3 class="font5">Troubleshooting</h3>
+                      <p class="font6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. It is a long established fact that reader will be distracted by the readable content.</p>
+                </div>
+              </div>
+                  <div class="col-md-6 col-sm-9 col-xs-12 image22">
+                      <img src="img/mac.jpg" style="height:400px; width:550px" alt="mac">
+                </div>
+      </div>
+ </div>
+</section>
+
+<section id="style4">
+   <div class="container">
+     <div class="row">
+       
+     </div>
+   </div>
 </section>

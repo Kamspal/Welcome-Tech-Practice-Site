@@ -8,8 +8,8 @@
             var settings = $.extend({
                 // These are the defaults.
                 color: "#000000",
-                height: "300px",
-                width: "300px",
+                height: "250px",
+                width: "250px",
                 line_width: 8,
                 starting_position: 25,
                 percent: 100,

@@ -9,7 +9,7 @@
     <!-- Fontawesome icons -->
     <link rel="stylesheet" href="css/font-awesome.css" type="text/css">
     <!-- Progress Bar -->
-    <link rel="stylesheet" href="css/plugin.css" type="text/css">
+    <link rel="stylesheet" href="css/plugin.css">
     <title>Test</title>
 </head>
 <body>
@@ -21,9 +21,9 @@
  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="js/plugin.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/plugin.js"></script>
 
     <footer>
         
@@ -42,12 +42,12 @@
     $(document).ready(function(){
 	    $(".my-progress-bar").circularProgress({
         line_width: 10,
-        color: "#000",
-        starting_position: 0, // 12.00 o' clock position, 25 stands for 3.00 o'clock (clock-wise)
+        color: "#FE9507",
+        starting_position: 25, // 12.00 o' clock position, 25 stands for 3.00 o'clock (clock-wise)
         percent: 0, // percent starts from
         percentage: true,
         // text: "More power behind every pixel"
-    }).circularProgress('animate', 75, 5000);
+    }).circularProgress('animate', 70, 3000);
     });
 </script>
     <!-- end Progress Bar -->

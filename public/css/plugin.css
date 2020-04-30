@@ -16,14 +16,14 @@
 }
 
 .progress-percentage {
-	font-size: 60px;
+    font-size: 40px;
+    margin-top: 20px;
     transform: translate(-50%, -85%);
-    color: black;
-    margin-top: 25px;
+    color: #FE9507;
 }
 
-/* .progress-text {
+.progress-text {
     transform: translate(-50%, 0%);
-    color: black;
+    color: #FE9507;
     font-size: 21px;
-} */
+}
