@@ -1,53 +1,52 @@
-<header class="content">
+<header id="content">
     <!-- Nav Bar -->
- <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-    <div class="container">
-  <a class="navbar-brand" href="#">Company Logo</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="padding-bottom: 20px;">
+      <div class="container">
+    <a class="navbar-brand" href="#">Company Logo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcontent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <!-- Social elements -->
-  
-
-  <!-- end social elements -->
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Seo</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Sem</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#"><i class="fa fa-facebook"></i></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#"><i class="fa fa-twitter"></i></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#"><i class="fa fa-play"></i></a>
-      </li>
-    </ul>
-  </div>
-  </div>
-</nav>
+  <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Seo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sem</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About us</a>
+        </li>
+      </ul>
+          <!-- Social elements -->
+          <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fa fa-play"></i></a>
+        </li>
+            <!-- end social elements -->
+      </ul>
+    </div>
+    </div>
+  </nav>
    <!-- end nav bar -->
 </header>
 
-<section class="style1">
+<section id="style1">
     <!-- Image slider -->
-<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="false">
+ <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="false">
 
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -81,6 +80,47 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
+  </div>
     <!-- end Image Slider -->
+</section>
+
+<section id="style2">
+    <div class="container">
+      <div class="row min-height">
+        <div class="col-md-9 col-sm-9 col-xs-12">
+            <h1 class="font">
+                Welcome Technologies Group
+            </h1>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+              <img class="img1" src="img/man.jpg" alt="business man">
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+              <h2 class="font1">
+                  We are an IT consulting and training firm which specializes Cisco Systems VOIP Phone Systems, Network Installtation and troubleshoooting. We are experts in our field. 
+              </h2>
+              <p class="font2">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into...
+              </p>
+              <button type="button" class="button1 color-red">
+                    More Detail
+              </button>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section id="style3">
+  <div class="container-fluid">
+    <div class="row">
+          <img class="img2" src="img/call-center.jpg" alt="call-center pic">
+  </div>
+   <div class="container">
+      <div class="row">
+          <div class="col-sm-4 col-sm-offset-4">
+             <div class="my-progress-bar">
+             </div> 
+            </div>
+      </div>
+    </div>
 </section>
