@@ -25,8 +25,45 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="js/plugin.js"></script>
 
-    <footer>
-        
+<footer id="style6">
+        <!-- footer navbar-->
+        <div class="container-fluid bg-grey">
+        <ul class="nav-bar">
+            <li class="nav-items">
+                <a href="">Home</a>
+            </li>
+            <li class="nav-items">
+                <a href="">About</a>
+            </li>
+            <li class="nav-items">
+                <a href="">Privacy policy</a>
+            </li>
+            <li class="nav-items">
+                <a href="">Terms & condition</a>
+            </li>
+            <li class="nav-items">
+                <a href="">Site map</a>
+            </li>
+            <li class="nav-items">
+                <a href="">Contact us</a>
+            </li>
+            <p>@ 2015 Welcome Technologies Group. All rights reserved.</p>
+        </ul>
+          <!-- Social elements -->
+          <ul class="footer-icons">
+        <li class="nav-items">
+          <a href="#"><i class="facebook fa fa-facebook"></i></a>
+        </li>
+        <li class="nav-items">
+          <a href="#"><i class="twitter fa fa-twitter"></i></a>
+        </li>
+        <li class="nav-items">
+          <a href="#"><i class="play fa fa-play" style="padding-top: 6px;"></i></a>
+        </li>
+            <!-- end social elements -->
+       </ul>
+        </div>
+        <!-- end footer navbar -->
     </footer>
 
     <!-- window on scroll -->

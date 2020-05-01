@@ -191,7 +191,7 @@ body{
 }
 
 .img2{
-    filter: blur(2px);
+    filter: blur(1px);
     top: 400px;
     height: 400px;
     width: 100%;
@@ -221,7 +221,8 @@ body{
     margin-left: 90px;
 }
 
-.font4{color: #626262;
+.font4{
+    color: #626262;
     font-size: 30px;
     letter-spacing: 2px;
     font-weight: 700 !important;
@@ -297,4 +298,151 @@ body{
     padding-left: 660px;
     bottom: 380px;
 }
+
+#style5{
+    background-color: #F2F2F2;
+}
+
+#style5 .sub-head{
+    color: #888888;
+    text-align: center;
+    text-decoration: none;
+    width:350px;
+    margin-left: 365px;
+    letter-spacing: 1px;
+    font-weight: 600 !important;
+}
+
+.font7{
+    color: #626262;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 700 !important;
+    text-align: center;
+    margin-left: 320px;
+    margin-top: 70px;
+}
+
+form{
+    width: 300px;
+    margin-top: 200px;
+    margin-left: -350px;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #ACACAC;
+  }
+
+  .message1{
+    height: 100px;
+    padding-bottom: 70px;
+}
+
+.submit1{
+    padding: 5px 30px;
+    border-color: #D75A62;
+    color: #D75A62;
+    text-transform: uppercase;
+    font-weight: 500 !important;
+    border-radius: 8px;
+    background-color: #F2F2F2;
+}
+
+.submit1:hover{
+    background-color: #000;
+}
+
+#style5 img{
+    height: 20px;
+    width: 20px;
+}
+
+#style5 .icon1, #style5 .icon2{
+    margin-top: 20px;
+}
+
+.icons{
+    margin-top: 200px;
+}
+
+#style5 i{
+    font-size: 20px;
+    margin-left: 40px;
+    position: relative;
+}
+
+#style5 span{
+    color: #606165;
+}
+
+.icons li{
+    list-style: none; 
+}
+
+#style5 .email{
+    margin-left: 5px;
+}
+
+#style5 .icon1{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+#style5 .emails{
+    margin-left: 5px;
+}
+
+#style5 .emailss{
+    margin-left: 5px;
+}
+
+#style6 .bg-grey{
+    height: 180px;
+    background-color: #4E4F54;
+    overflow: hidden;
+}
+
+#style6 .nav-bar{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 14px;
+}
+
+#style6 li{
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+}
+
+#style6 a{
+    color: #C2C3C8;
+    text-transform: uppercase;
+    margin: auto 10px;
+}
+
+#style6 a:hover{
+    text-decoration: none;
+    color: #0E94CA;
+}
+
+p{
+    color: #A0A1A5;
+    font-weight: 400 !important;
+}
+
+#style6 .footer-icons{
+    text-align: center;
+    position: relative;
+    margin: -145px 0 0 0;
+}
+
+.facebook, .twitter, .play{
+    color: #4E4F54;
+    background-color: #FEFEFE;
+    border: 2px solid #ADADAD;
+}
+
+
+
+
 

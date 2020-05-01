@@ -149,7 +149,7 @@
    </div>
 </section>
 
-<section id="style4">
+<section id="style4" style="height:700px">
  <div class="container">
       <div class="row" style="height: 700px; width:100%">
         <div class="col-md-9 col-sm-9 col-xs-12">
@@ -184,10 +184,42 @@
  </div>
 </section>
 
-<section id="style4">
+<section id="style5">
    <div class="container">
-     <div class="row">
-       
-     </div>
-   </div>
+     
+     <div class="row" style="height: 500px;">
+        <div class="col-md-6 col-md-xs-6">
+            <h1 class="font7" style="margin-left: 480px;">Support</h1>
+            <p class="sub-head">For more info and support. Contact Us!</p>
+        </div>
+
+          <form action="">
+                <div class="form-group">
+                  <input type="name" class="form-control name1" placeholder="Full name">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control email1" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <input type="message" class="form-control message1" placeholder="Message">
+                </div>
+                <button class="submit1" type="submit">Send</button>
+          </form>
+              <div class="icons">
+               <li>
+                  <i class="icon fa fa-map-marker" aria-hidden="true"></i>
+                  <span class="email">
+                  Welcome Technologies Group 21Some Street, Cape Town Park Dazling 7800
+                </span>
+            </li>
+               <li><i class="icon1 fa fa-envelope" aria-hidden="true"></i>
+                 <span class="emails">Email: support@hannahgroup.com</span>
+            </li>
+               <li>
+                 <i class="icon2"><img src="img/touch-pad.png" alt=""></i>
+                 <span class="emailss">Phone: +21 98 765 4321</span>
+            </li>
+             </div>
+    </div>
+  </div>
 </section>
