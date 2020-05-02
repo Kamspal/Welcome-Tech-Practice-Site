@@ -8,15 +8,58 @@
     <link rel="stylesheet" href="css/style.css" type="text/css"> 
     <!-- Fontawesome icons -->
     <link rel="stylesheet" href="css/font-awesome.css" type="text/css">
+    <!-- Themify icons -->
+    <link rel="stylesheet" href="css/themify-icons.css" type="text/css">
     <!-- Progress Bar -->
     <link rel="stylesheet" href="css/plugin.css">
+    
     <title>Test</title>
 </head>
 <body>
 
 @include('menu')
 
-
+<footer id="style6">
+        <!-- footer navbar-->
+        <div class="container-fluid bg-grey">
+        <ul class="nav-bar">
+            <li class="nav-items">
+                <a class="abc" href="">Home</a>
+            </li>
+            <li class="nav-items">
+                <a class="abc" href="">About</a>
+            </li>
+            <li class="nav-items">
+                <a class="abc" href="">Privacy policy</a>
+            </li>
+            <li class="nav-items">
+                <a class="abc" href="">Terms & condition</a>
+            </li>
+            <li class="nav-items">
+                <a class="abc" href="">Site map</a>
+            </li>
+            <li class="nav-items">
+                <a class="abc" href="">Contact us</a>
+            </li>
+            <p class="footer-p">@ 2015 Welcome Technologies Group. All rights reserved.</p>
+        </ul>
+        <ul class="margin-top">
+          <!-- Social elements -->
+         <li class="nav-item">
+          <a href="#"><i class="facebook custom fa fa-facebook"></i></a>
+        </li>
+        <li class="nav-item">
+          <a href="#"><i class="twitter custom fa fa-twitter"></i></a>
+        </li>
+        <li class="nav-item">
+          <a href="#"><i class="play custom fa fa-play"></i></a>
+        </li>
+    
+            <!-- end social elements -->
+       </ul>
+        </div>
+        <!-- end footer navbar -->
+</footer>
 
  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -25,46 +68,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="js/plugin.js"></script>
 
-<footer id="style6">
-        <!-- footer navbar-->
-        <div class="container-fluid bg-grey">
-        <ul class="nav-bar">
-            <li class="nav-items">
-                <a href="">Home</a>
-            </li>
-            <li class="nav-items">
-                <a href="">About</a>
-            </li>
-            <li class="nav-items">
-                <a href="">Privacy policy</a>
-            </li>
-            <li class="nav-items">
-                <a href="">Terms & condition</a>
-            </li>
-            <li class="nav-items">
-                <a href="">Site map</a>
-            </li>
-            <li class="nav-items">
-                <a href="">Contact us</a>
-            </li>
-            <p>@ 2015 Welcome Technologies Group. All rights reserved.</p>
-        </ul>
-          <!-- Social elements -->
-          <ul class="footer-icons">
-        <li class="nav-items">
-          <a href="#"><i class="facebook fa fa-facebook"></i></a>
-        </li>
-        <li class="nav-items">
-          <a href="#"><i class="twitter fa fa-twitter"></i></a>
-        </li>
-        <li class="nav-items">
-          <a href="#"><i class="play fa fa-play" style="padding-top: 6px;"></i></a>
-        </li>
-            <!-- end social elements -->
-       </ul>
-        </div>
-        <!-- end footer navbar -->
-    </footer>
+
 
     <!-- window on scroll -->
     <script>
@@ -86,7 +90,7 @@
         // text: "More power behind every pixel"
     }).circularProgress('animate', 70, 3000);
     });
-</script>
+ </script>
     <!-- end Progress Bar -->
 
        

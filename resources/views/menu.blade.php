@@ -1,4 +1,4 @@
-<header id="content">
+<header>
     <!-- Nav Bar -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="padding-bottom: 20px;">
       <div class="container">
@@ -28,16 +28,16 @@
           <!-- Social elements -->
           <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fa fa-facebook"></i></a>
+          <a class="nav-link" href="#"><i class="custom padding-9 fa fa-facebook"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fa fa-twitter"></i></a>
+          <a class="nav-link" href="#"><i class="custom padding-9 fa fa-twitter"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fa fa-play"></i></a>
+          <a class="nav-link" href="#"><i class="custom padding-9 fa fa-play"></i></a>
         </li>
-            <!-- end social elements -->
       </ul>
+           <!-- end social elements -->
     </div>
     </div>
   </nav>
@@ -46,7 +46,7 @@
 
 <section id="style1">
     <!-- Image slider -->
- <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="false">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -62,6 +62,7 @@
       <div class="carousel-caption d-none d-md-block">
         <h5>We are an IT <span class="lb" style="color: #02A1DD;;">consulting and training</span> firm</h5>
         <p>Which specializes Cisco Systems VOIP Phone Systems, Network Installtation and troubleshoooting. We are experts in our field.</p>
+        <button type="button" class="color-lb">Learn More</button>
       </div>
     </div>
     <div class="carousel-item">
@@ -69,15 +70,16 @@
       <div class="carousel-caption d-none d-md-block">
         <h5>We are an IT <span class="lb" style="color: #02A1DD;;">consulting and training</span> firm</h5>
         <p>Which specializes Cisco Systems VOIP Phone Systems, Network Installtation and troubleshoooting. We are experts in our field.</p>
+        <button type="button" class="color-lb">Learn More</button>
       </div>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon prev" aria-hidden="true"></span>
+  <i class="ti-arrow-left" aria-hidden="true"></i>
     <span class="sr-only">Previous</span>
   </a>
   <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-    <span class="carousel-control-next-icon next" aria-hidden="true"></span>
+  <i class="ti-arrow-right" aria-hidden="true"></i>
     <span class="sr-only">Next</span>
   </a>
   </div>
@@ -88,9 +90,10 @@
     <div class="container">
       <div class="row min-height">
         <div class="col-md-9 col-sm-9 col-xs-12">
-            <h1 class="font">
+              <h1 class="font">
                 Welcome Technologies Group
             </h1>
+            <div class="down-arrow"></div>
         </div>
         <div class="col-md-6 col-sm-6 col-xs-12">
               <img class="img1" src="img/man.jpg" alt="business man">
@@ -154,6 +157,7 @@
       <div class="row" style="height: 700px; width:100%">
         <div class="col-md-9 col-sm-9 col-xs-12">
             <h1 class="font4">Our Features</h1>
+            <div class="down-arrow"></div>
         </div>
         <div class="col-sm-6">
           <ul class="progressbar" style="height:0; padding-left: 50px;">
@@ -187,15 +191,16 @@
 <section id="style5">
    <div class="container">
      
-     <div class="row" style="height: 500px;">
-        <div class="col-md-6 col-md-xs-6">
-            <h1 class="font7" style="margin-left: 480px;">Support</h1>
+     <div class="row" style="height: 550px">
+        <div class="col-md-9 col-sm-9 col-xs-12">
+            <h1 class="font7" style="margin-left: 330px;">Support</h1>
             <p class="sub-head">For more info and support. Contact Us!</p>
+            <div class="down-arrow"></div>
         </div>
-
-          <form action="">
+        
+          <form>
                 <div class="form-group">
-                  <input type="name" class="form-control name1" placeholder="Full name">
+                  <input type="name" class="form-control name1" placeholder="Full Name">
                 </div>
                 <div class="form-group">
                   <input type="email" class="form-control email1" placeholder="Email">
@@ -208,16 +213,16 @@
               <div class="icons">
                <li>
                   <i class="icon fa fa-map-marker" aria-hidden="true"></i>
-                  <span class="email">
-                  Welcome Technologies Group 21Some Street, Cape Town Park Dazling 7800
+                  <span>
+                  <p class="map">Welcome Technologies Group<br>21Some Street, Cape Town Park<br>Dazling 7800</p>
                 </span>
             </li>
                <li><i class="icon1 fa fa-envelope" aria-hidden="true"></i>
-                 <span class="emails">Email: support@hannahgroup.com</span>
+                 <span><p class="email">Email:<br>Support@hannahgroup.com</p></span>
             </li>
                <li>
                  <i class="icon2"><img src="img/touch-pad.png" alt=""></i>
-                 <span class="emailss">Phone: +21 98 765 4321</span>
+                 <span><p class="phone">Phone:<br>+21 98 765 4321</p></span>
             </li>
              </div>
     </div>

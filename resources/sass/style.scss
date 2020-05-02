@@ -8,6 +8,14 @@ body{
     transition: 0.4s ease-in;
 }
 
+.ti-arrow-left, .ti-arrow-right{
+    font-size: 35px;
+}
+
+.ti-arrow-left:hover, .ti-arrow-right:hover{
+    color:  #02A1DD;
+}
+
 .carousel-item{
     height: 90vh;
     background: no-repeat center center scroll;
@@ -66,7 +74,7 @@ body{
     margin-right: 20px;
 }
 
-#navbarContent .mr-auto a:hover{
+#navbarContent .mr-auto .nav-link:hover{
     color: #02A1DD;
 }
 
@@ -112,26 +120,28 @@ body{
     text-align: center;
 }
 
-.fa-play{
+.padding-9{
+    padding: 9px;
+}
+
+.custom{
     background-color: transparent;
     border:0.5px solid #fff;    
     height:30px;
     width:30px;
-    padding: 9px 0px;
     border-radius:50%;
     -moz-border-radius:50%;
     -webkit-border-radius:50%;
 }
 
-.fa:hover{
+.custom:hover{
     color: #fff;
     background-color: #02A1DD;
 }
 
-.ml-auto .fa-play{
+.ml-auto .custom{
     font-size: 11px;
     text-align: center;
-    padding-left: 2px;
 }
 
 #style2 .min-height{
@@ -146,6 +156,28 @@ body{
     text-align: center;
     margin-left: 320px;
     margin-top: 30px;
+}
+
+.down-arrow{
+    position:relative;
+    background-color: #CC1F2F;
+    height:3px !important;
+    width:18% !important;
+    margin: 18px 0 0 500px;
+}
+
+.down-arrow:after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: solid 8px #CC1F2F;
+    border-left: solid 8px transparent;
+    border-right: solid 8px transparent;
 }
 
 .img1{
@@ -207,6 +239,7 @@ body{
     color: #fff;
     display: inline-block;
     text-align: center;
+    width: 255px;
 }
 
 .margin-right{
@@ -227,7 +260,7 @@ body{
     letter-spacing: 2px;
     font-weight: 700 !important;
     text-align: center;
-    margin-left: 320px;
+    margin-left: 330px;
     margin-top: 90px;
 }
 
@@ -241,7 +274,6 @@ body{
 }
 
 .progressbar li .low-height{
-    overflow: visible;
     position: relative;
 }
 
@@ -304,13 +336,13 @@ body{
 }
 
 #style5 .sub-head{
-    color: #888888;
     text-align: center;
+    font-size: 18px;
     text-decoration: none;
-    width:350px;
-    margin-left: 365px;
+    width:380px;
+    margin:-5px 0 0 385px;
+    color: #808084;
     letter-spacing: 1px;
-    font-weight: 600 !important;
 }
 
 .font7{
@@ -325,15 +357,15 @@ body{
 
 form{
     width: 300px;
-    margin-top: 200px;
-    margin-left: -350px;
+    margin: -10px 0 0 280px;
+    position: relative;
 }
 
 .form-control::-webkit-input-placeholder {
     color: #ACACAC;
-  }
+}
 
-  .message1{
+.message1{
     height: 100px;
     padding-bottom: 70px;
 }
@@ -352,48 +384,62 @@ form{
     background-color: #000;
 }
 
+#style5 .icon1:hover{
+    color: none !important;
+}
+
 #style5 img{
     height: 20px;
     width: 20px;
 }
 
-#style5 .icon1, #style5 .icon2{
-    margin-top: 20px;
-}
-
 .icons{
-    margin-top: 200px;
-}
-
-#style5 i{
-    font-size: 20px;
-    margin-left: 40px;
-    position: relative;
-}
-
-#style5 span{
-    color: #606165;
+    margin-top: -10px;
 }
 
 .icons li{
     list-style: none; 
 }
 
-#style5 .email{
-    margin-left: 5px;
+#style5 .icon{
+    font-size: 26px;
+    margin-left: 43px;
+    position: relative;
+    color: #D31E30;
 }
 
 #style5 .icon1{
-    margin-top: 60px;
-    margin-bottom: 40px;
+    margin-left: 40px;
+    position: relative;
+    color: #D31E30; 
+} 
+
+#style5 .icon2{
+    font-size: 20px;
+    margin-left: 40px;
+    position: relative; 
 }
 
-#style5 .emails{
-    margin-left: 5px;
+#style5 span p{
+    color: #666666;
+    font-weight: 550 !important;
+    letter-spacing: 1px;
+    font-size: 15px;
 }
 
-#style5 .emailss{
-    margin-left: 5px;
+#style5 .map{
+    margin: -30px 0 45px 80px;
+    line-height: 1; 
+}
+
+#style5 .email{
+    line-height: 1;
+    margin: -15px 0 35px 80px;
+}
+
+#style5 .phone{
+    line-height: 1;
+    margin: -20px 0 20px 80px;
 }
 
 #style6 .bg-grey{
@@ -414,7 +460,7 @@ form{
     text-decoration: none;
 }
 
-#style6 a{
+.abc{
     color: #C2C3C8;
     text-transform: uppercase;
     margin: auto 10px;
@@ -425,15 +471,9 @@ form{
     color: #0E94CA;
 }
 
-p{
-    color: #A0A1A5;
-    font-weight: 400 !important;
-}
-
-#style6 .footer-icons{
-    text-align: center;
-    position: relative;
-    margin: -145px 0 0 0;
+#style6 .margin-top{
+    position: absolute;
+    margin: -157px 0 0 630px;
 }
 
 .facebook, .twitter, .play{
@@ -441,6 +481,25 @@ p{
     background-color: #FEFEFE;
     border: 2px solid #ADADAD;
 }
+
+.margin-top .play{
+text-align: center;
+font-size: 11px;
+}
+
+.play{  
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    padding: 9px;
+}
+
+.footer-p{
+    color: #939498;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
 
 
 
