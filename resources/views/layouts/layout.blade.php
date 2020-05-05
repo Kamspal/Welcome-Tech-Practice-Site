@@ -72,23 +72,49 @@
 
     <!-- window on scroll -->
     <script>
-       $(window).scroll(function(){
-        $('nav').toggleClass('scrolled', $(this).scrollTop() > 630)
-    });
+        $(window).scroll(function(e) {
+
+            // add/remove class to navbar when scrolling to hide/show
+            var scroll = $(window).scrollTop();
+            if (scroll >= 620) {
+                $('.navbar').addClass("navbar-hide");
+            } else {
+                $('.navbar').removeClass("navbar-hide");
+            }
+
+        });
     </script>
     <!--  end window on scroll -->
 
     <!-- Progress Bar -->
     <script>
     $(document).ready(function(){
-	    $(".my-progress-bar").circularProgress({
-        line_width: 10,
+	    $("#bar-1").circularProgress({
+        line_width: 11,
         color: "#FE9507",
         starting_position: 25, // 12.00 o' clock position, 25 stands for 3.00 o'clock (clock-wise)
         percent: 0, // percent starts from
         percentage: true,
         // text: "More power behind every pixel"
     }).circularProgress('animate', 70, 3000);
+
+    $("#bar-2").circularProgress({
+        line_width: 11,
+        color: "#FE9507",
+        starting_position: 25, // 12.00 o' clock position, 25 stands for 3.00 o'clock (clock-wise)
+        percent: 0, // percent starts from
+        percentage: true,
+        // text: "More power behind every pixel"
+    }).circularProgress('animate', 80, 3000);
+
+    $("#bar-3").circularProgress({
+        line_width: 11,
+        color: "#FE9507",
+        starting_position: 25, // 12.00 o' clock position, 25 stands for 3.00 o'clock (clock-wise)
+        percent: 0, // percent starts from
+        percentage: true,
+        // text: "More power behind every pixel"
+    }).circularProgress('animate', 95, 3000);
     });
  </script>
     <!-- end Progress Bar -->

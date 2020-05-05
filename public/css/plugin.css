@@ -16,7 +16,8 @@
 }
 
 .progress-percentage {
-    font-size: 40px;
+    font-size: 46px;
+    font-weight: 700 !important;
     margin-top: 20px;
     transform: translate(-50%, -85%);
     color: #FE9507;

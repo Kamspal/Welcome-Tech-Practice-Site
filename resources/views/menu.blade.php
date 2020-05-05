@@ -122,15 +122,15 @@
    <div class="container">
       <div class="row" style="margin-top: 30px">
           <div class="col-sm-4 col-sm-offset-4">
-             <div class="my-progress-bar">
+             <div id="bar-1" class="my-progress-bar">
              </div> 
             </div>
             <div class="col-sm-4 col-sm-offset-4">
-             <div class="my-progress-bar">
+             <div id="bar-2" class="my-progress-bar">
              </div> 
             </div>
             <div class="col-sm-4 col-sm-offset-4">
-             <div class="my-progress-bar">
+             <div id="bar-3" class="my-progress-bar">
              </div> 
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12 margin-right">
@@ -152,7 +152,7 @@
    </div>
 </section>
 
-<section id="style4" style="height:700px">
+<section id="style4" style="height:800px">
  <div class="container">
       <div class="row" style="height: 700px; width:100%">
         <div class="col-md-9 col-sm-9 col-xs-12">
@@ -168,7 +168,7 @@
           <div class="vl"></div>
         </div>
           <div class="row margin-left">
-                <div class="col-md-9 col-sm-9 col-xs-12 padding-bottom">
+                <div class="col-md-9 col-sm-9 col-xs-12 padding-bottom" style="margin-top: -250px;">
                     <h3 class="font5">Cisco System VOIP Phone Systems</h3>
                       <p class="font6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. It is a long established fact that reader will be distracted by the readable content.</p>
                 </div>
@@ -181,9 +181,6 @@
                       <p class="font6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. It is a long established fact that reader will be distracted by the readable content.</p>
                 </div>
               </div>
-                  <div class="col-md-6 col-sm-9 col-xs-12 image22">
-                      <img src="img/mac.jpg" style="height:400px; width:550px" alt="mac">
-                </div>
       </div>
  </div>
 </section>
@@ -213,16 +210,16 @@
               <div class="icons">
                <li>
                   <i class="icon fa fa-map-marker" aria-hidden="true"></i>
-                  <span>
-                  <p class="map">Welcome Technologies Group<br>21Some Street, Cape Town Park<br>Dazling 7800</p>
+                  <span class="map">
+                  Welcome Technologies Group<br>21Some Street, Cape Town Park<br>Dazling 7800
                 </span>
             </li>
                <li><i class="icon1 fa fa-envelope" aria-hidden="true"></i>
-                 <span><p class="email">Email:<br>Support@hannahgroup.com</p></span>
+                 <span class="email">Email:<br>Support@hannahgroup.com</span>
             </li>
                <li>
                  <i class="icon2"><img src="img/touch-pad.png" alt=""></i>
-                 <span><p class="phone">Phone:<br>+21 98 765 4321</p></span>
+                 <span class="phone">Phone:<br>+21 98 765 4321</span>
             </li>
              </div>
     </div>
