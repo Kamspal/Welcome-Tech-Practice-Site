@@ -5,15 +5,121 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" type="text/css"> 
+    <!-- Fontawesome icons -->
+    <link rel="stylesheet" href="css/font-awesome.css" type="text/css">
+    <!-- Themify icons -->
+    <link rel="stylesheet" href="css/themify-icons.css" type="text/css">
+    <!-- Progress Bar -->
+    <link rel="stylesheet" href="css/plugin.css">
     
     <title>Test</title>
 </head>
+<body>
 
 @include('menu')
+
+<footer id="style6">
+        <!-- footer navbar-->
+        <div class="container-fluid bg-grey">
+        <ul class="nav-bar">
+            <li class="nav-items">
+                <a class="abc" href="">Home</a>
+            </li>
+            <li class="nav-items">
+                <a class="abc" href="">About</a>
+            </li>
+            <li class="nav-items">
+                <a class="abc" href="">Privacy policy</a>
+            </li>
+            <li class="nav-items">
+                <a class="abc" href="">Terms & condition</a>
+            </li>
+            <li class="nav-items">
+                <a class="abc" href="">Site map</a>
+            </li>
+            <li class="nav-items">
+                <a class="abc" href="">Contact us</a>
+            </li>
+            <p class="footer-p">@ 2015 Welcome Technologies Group. All rights reserved.</p>
+        </ul>
+        <ul class="margin-top">
+          <!-- Social elements -->
+         <li class="nav-item">
+          <a href="#"><i class="facebook custom fa fa-facebook"></i></a>
+        </li>
+        <li class="nav-item">
+          <a href="#"><i class="twitter custom fa fa-twitter"></i></a>
+        </li>
+        <li class="nav-item">
+          <a href="#"><i class="play custom fa fa-play"></i></a>
+        </li>
+    
+            <!-- end social elements -->
+       </ul>
+        </div>
+        <!-- end footer navbar -->
+</footer>
+
  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/plugin.js"></script>
+
+
+
+    <!-- window on scroll -->
+    <script>
+        $(window).scroll(function(e) {
+
+            // add/remove class to navbar when scrolling to hide/show
+            var scroll = $(window).scrollTop();
+            if (scroll >= 620) {
+                $('.navbar').addClass("navbar-hide");
+            } else {
+                $('.navbar').removeClass("navbar-hide");
+            }
+
+        });
+    </script>
+    <!--  end window on scroll -->
+
+    <!-- Progress Bar -->
+    <script>
+    $(document).ready(function(){
+	    $("#bar-1").circularProgress({
+        line_width: 11,
+        color: "#FE9507",
+        starting_position: 25, // 12.00 o' clock position, 25 stands for 3.00 o'clock (clock-wise)
+        percent: 0, // percent starts from
+        percentage: true,
+        // text: "More power behind every pixel"
+    }).circularProgress('animate', 70, 3000);
+
+    $("#bar-2").circularProgress({
+        line_width: 11,
+        color: "#FE9507",
+        starting_position: 25, // 12.00 o' clock position, 25 stands for 3.00 o'clock (clock-wise)
+        percent: 0, // percent starts from
+        percentage: true,
+        // text: "More power behind every pixel"
+    }).circularProgress('animate', 80, 3000);
+
+    $("#bar-3").circularProgress({
+        line_width: 11,
+        color: "#FE9507",
+        starting_position: 25, // 12.00 o' clock position, 25 stands for 3.00 o'clock (clock-wise)
+        percent: 0, // percent starts from
+        percentage: true,
+        // text: "More power behind every pixel"
+    }).circularProgress('animate', 95, 3000);
+    });
+ </script>
+    <!-- end Progress Bar -->
+
+       
+
 </body>
 </html>
